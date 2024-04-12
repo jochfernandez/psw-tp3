@@ -1,0 +1,25 @@
+{
+  "name": "ar.edu.unju.fi.psw",
+  "version": "1.0.0",
+  "description": "Trabajo Practico 3 de PSW",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jochfernandez/psw-tp3.git"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "José Manuel Fernández",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jochfernandez/psw-tp3/issues"
+  },
+  "homepage": "https://github.com/jochfernandez/psw-tp3#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
