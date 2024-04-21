@@ -1,0 +1,76 @@
+.container-fluid, footer{
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+}
+nav{
+    background-color: #eca7f5;
+    margin-bottom: 0;
+}
+.nav-item div {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item img {
+    height: 1em;
+    width: 1em;
+}
+
+.nav-item img:hover {
+    height: 1.1em;
+    width: 1.1em;
+
+}
+@media (max-width: 1000px) {
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-item div {
+        flex-direction: column;
+    }
+}
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-body {
+    position:relative;
+    min-height: 200px;
+}
+.btn-primary{
+    position: absolute;
+    background-color: red;
+    border-color: white;
+    bottom: 25px;
+    align-items: center;
+
+}
+.btn-primary:hover {
+    color: red;
+    border-color: #ff0000;
+    background-color: white;
+}
+.card {
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(0.9);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.card-publicidad {
+    position: sticky;
+    margin-top: 5px;
+    top: 0;
+    width: 100%;
+}
+
