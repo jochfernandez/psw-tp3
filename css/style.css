@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid black;
 }
+
 p{
     margin: 0;
     padding: 0;
@@ -52,9 +52,7 @@ nav{
     position: absolute;
     background-color: red;
     border-color: white;
-    bottom: 25px;
-    align-items: center;
-
+    transform: translate(-50%, 100%);
 }
 .btn-primary:hover {
     color: red;
@@ -145,4 +143,13 @@ nav{
     margin-left: 2px;
     margin-bottom: 2px;
     margin-top: 5px;
+}
+.footer-general{
+    font-weight: bold;
+    color: #cccccc;
+    background-color: #856db0;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
