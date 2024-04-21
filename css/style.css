@@ -5,6 +5,10 @@
     text-align: center;
     border: 1px solid black;
 }
+p{
+    margin: 0;
+    padding: 0;
+}
 nav{
     background-color: #eca7f5;
     margin-bottom: 0;
@@ -73,4 +77,72 @@ nav{
     top: 0;
     width: 100%;
 }
+.bandera {
+    width: 20px;
+    height: auto;
+}
+.primera-columna{
+    width: 10rem;
+}
+.titulo-tabla{
+    margin-top: 5px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #0a53be;
+}
+.formulario{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #026e49;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    width: auto;
+}
 
+.titulo-formulario{
+    margin-top: 5px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #05c787;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.subtitulo-formulario{
+    padding-top: 5px;
+    padding-left: 5px ;
+    align-items: start;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    background-color: #026e49;
+    text-align: left;
+}
+
+.form-select{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.form-select{
+    width:100%;
+}
+
+.input-group{
+    padding-left: 5px;
+    width:101%;
+}
+.btn-convertir{
+    width: 100%;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    color: white;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
