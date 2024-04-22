@@ -56,16 +56,14 @@ nav{
 .card-body {
     position:relative;
     min-height: 200px;
+    margin-bottom: 2px;
 }
-.card-text{
+.card-text, .card-title{
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-.card-body .btn-primary{
-    position: absolute;
 }
 .btn-primary{
     background-color: red;
@@ -77,9 +75,10 @@ nav{
     background-color: white;
 }
 .card {
-    margin: 5px;
+    margin-top: 5px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: transform 0.3s, box-shadow 0.3s;
+    padding-bottom: 0;
 }
 
 .card:hover {
