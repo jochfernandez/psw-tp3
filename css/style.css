@@ -58,9 +58,17 @@ nav{
     min-height: 200px;
     margin-bottom: 2px;
 }
-.card-text, .card-title{
+.card-title{
     display: -webkit-box;
     -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -78,7 +86,6 @@ nav{
     margin-top: 5px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: transform 0.3s, box-shadow 0.3s;
-    padding-bottom: 0;
 }
 
 .card:hover {
